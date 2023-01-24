@@ -1,0 +1,27 @@
+.table {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+  text-align: center;
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  box-shadow: 0px 6px 11px 0px rgba(114, 115, 120, 1);
+  border-spacing: 3px;
+}
+
+.thead {
+  background-color: rgb(57, 175, 204);
+  color: white;
+}
+
+.tablerow:nth-child(2n) {
+  background-color: rgb(211, 211, 211);
+}
+
+tr {
+  height: 50px;
+}
+
+th {
+  text-transform: uppercase;
+}
