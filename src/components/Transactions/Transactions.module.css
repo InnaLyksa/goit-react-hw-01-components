@@ -12,12 +12,28 @@
 .thead {
   background-color: rgb(57, 175, 204);
   color: white;
+  font-weight: 700;
+  font-size: 28px;
 }
 
-.tablerow:nth-child(2n) {
+/* .tablerow:nth-child(2n) {
   background-color: rgb(211, 211, 211);
+} */
+/* .tablerow {
+  color: white;
+} */
+.invoice {
+  background-color: rgba(244, 248, 197, 0.619);
 }
-
+.payment {
+  background-color: rgba(193, 244, 208, 0.619);
+}
+.deposit {
+  background-color: rgba(195, 229, 239, 0.619);
+}
+.withdrawal {
+  background-color: rgba(246, 224, 225, 0.619);
+}
 tr {
   height: 50px;
 }

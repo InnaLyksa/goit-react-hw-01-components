@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Transaction.module.css';
+import css from './Transactions.module.css';
 export const Transactions = ({ items }) => {
   return (
     <table className={css.table}>
@@ -13,7 +13,8 @@ export const Transactions = ({ items }) => {
 
       <tbody>
         {items.map(({ id, type, amount, currency }) => (
-          <tr className={css.tablerow} key={id}>
+          // <tr className={css.tablerow} key={id}>
+          <tr className={`${css.tablerow} ${css[type]}`} key={id}>
             <th>{type}</th>
             <th>{amount}</th>
             <th>{currency}</th>
